@@ -1,0 +1,29 @@
+type variableName = value; //syntax for creating a variable 
+// type is a C# type like int and string 
+// variableName is the name of the variable (like x or name)
+// the = is used to assign value to the variable
+
+CREATE A  VARIABLE CALLED NAME OF TYPE string AND ASSIGN IT THE VALUE "John":
+string name = "John";
+Console.Writeline(name);
+
+CREATE A VARIABLE THAT SHOULD STORE A NUMBER
+int myNum = 15;
+Console.Writeline(myNum);
+
+DECLARE A VARIABLE WITHOUT ASSIGNING THE VALUE AND ASSIGNING IT LATER ON
+int myNum;
+myNum = 15;
+Console.Writeline(myNum);
+
+ASSIGN A NEW VALUE TO AN EXISTING VARAIBLE OVERWRITING THE PREV. VALUE
+int myNum = 15;
+myNum = 20; // the switch is here
+Console.Writelien(myNum);
+
+HOW TO DECLARE VARIABLES OF OTHER TYPES
+int myNum = 5;
+double myDoubleNum = 5.99D;
+char myLetter = 'D';
+bool MyBool = true;
+string myText = "Hello";
