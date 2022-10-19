@@ -19,7 +19,8 @@ Console.Writeline(myNum);
 ASSIGN A NEW VALUE TO AN EXISTING VARAIBLE OVERWRITING THE PREV. VALUE
 int myNum = 15;
 myNum = 20; // the switch is here
-Console.Writelien(myNum);
+Console.Writeline(myNum);
+// Writeline() method is used to display variable values to the console window
 
 HOW TO DECLARE VARIABLES OF OTHER TYPES
 int myNum = 5;
@@ -27,3 +28,32 @@ double myDoubleNum = 5.99D;
 char myLetter = 'D';
 bool MyBool = true;
 string myText = "Hello";
+
+COMBINE BOTH TEXT AND VARIABLE USE THE + CHARACTRER:
+string name = "John";
+Console.Writeline("Hello " + name);
+
+YOU CAN USE THE + CHARACTER TO ADD A VARIABLE TO ANOTHER VARIABLE:
+string firstName = "John ";
+string lastName = 'Doe";
+string fullName = firstName + lastName;
+Console.Writeline(fullName);
+
+Multiple Variables:
+DECLARE MORE THAN 1 VARIABLE OF THE SAME TYPE USING COMMA SEPARATED LIST
+int x = 5, y = 6, z = 50; 
+Console.WriteLine(x + y = z);
+
+ASSIGN THE SAME VALUE TO MULIPLE VARIABLES IN 1 LINE 
+int x, y, z;
+x = y = z = 50;
+Console.Writeline(x + y + z);
+
+IDENTIFIERS 
+// C# varaibles must be identified with unique names (identifiers) they can be whatever you want but recommeneded to be descriptive 
+//rules for naming variables include:
+  - Names can contain letters, digits, and the underscore character (_)
+  - Names must begin with a letter 
+  - Names should start w/ a lowercase letter and it can't contain whitespace
+  - Names are case sensitive!!!
+  - There are reserved words like int and double 
