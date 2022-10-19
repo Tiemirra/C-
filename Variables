@@ -57,3 +57,6 @@ IDENTIFIERS
   - Names should start w/ a lowercase letter and it can't contain whitespace
   - Names are case sensitive!!!
   - There are reserved words like int and double 
+  
+  INTEGER TYPYES
+  
