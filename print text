@@ -1,0 +1,11 @@
+using System; // you can use classes from the System namespace
+namespace Helloworld //namespace is used to organize your code, and it's a container for classes and other namespaces
+{// these marks the beginning and end of code
+class Program // container for data and methods bringing functionality
+{
+static void Main(string[] args) // and code inside Main method will execute
+{
+Console.Writeline("Hello World!"); // Console = class and System = namespace and it has a Writeline() method that print text and every C# statement ends with a ;
+}
+}
+}
