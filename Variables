@@ -33,6 +33,7 @@ COMBINE BOTH TEXT AND VARIABLE USE THE + CHARACTRER:
 string name = "John";
 Console.Writeline("Hello " + name);
 
+
 YOU CAN USE THE + CHARACTER TO ADD A VARIABLE TO ANOTHER VARIABLE:
 string firstName = "John ";
 string lastName = 'Doe";
