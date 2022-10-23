@@ -2,11 +2,40 @@
 Data Type	Size	Description
 Numbers:
 -int	4 bytes	Stores whole numbers from -2,147,483,648 to 2,147,483,647
+EXAMPLE:
+int myNum = 100000;
+Console.Writeline(myNum);
 -long	8 bytes	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+long myNum = 15000000000L;
+Console.Writeline(myNum);
 -float	4 bytes	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+float myNum = 5.75F;
+Console.Writeline(myNum);
 -double	8 bytes	Stores fractional numbers. Sufficient for storing 15 decimal digits
+double myNum = 19.99D;
+Console.Writeline(myNum);
+
+SCIENTIFIC NUMBERS: floating point number can also be a scientific # w/ an "e" to indicate the power of 10
+EXAMPLE:
+float f1 = 35e3F
+double d1 = 12E4D;
+Console.Writeline(f1);
+Console.Writeline(d1);
+
 TRUE AND FALSE:
--bool	1 bit	Stores true or false values
+-bool	1 bit	Stores true or false 
+EXAMPLE: 
+bool isCSharpFun = true;
+bool isFishTasty = false;
+Console.Writeline(isCSharpFun); // outputs true
+Console.Writeline(isFishTasty); // outputs false
+
 Characters:
 -char	2 bytes	Stores a single character/letter, surrounded by single quotes
+EXAMPLE:
+char myGrade = 'B';
+Console.Writeline(myGrade);
 -string	2 bytes per character	Stores a sequence of characters, surrounded by double quotes
+EXAMPLE:
+string greeting = "Hello World";
+Console.Writeline(greeting);
